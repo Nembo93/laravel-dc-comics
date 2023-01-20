@@ -13,7 +13,7 @@
                 </div>
                 <h5>{{$comic['series']}}</h5>
                 <strong>{{$comic['price']}}</strong>
-                <button class="info_button"><a href="{{ route('comics.show', $comic->id) }}">Show details</a></button>
+                <button class="info_button"><a href="{{ route('show', $comic->id) }}">Show details</a></button>
             </div>        
         @endforeach
     </div>
