@@ -16,7 +16,7 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="container bg-dark">
         <h1>Questo è l'header</h1>
     </div>
     @yield('page_content')
