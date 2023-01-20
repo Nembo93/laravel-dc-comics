@@ -3,7 +3,7 @@
 @section('page_content')
 <main class="bg-light">
     <h1>Questa è la view index</h1>
-
+    <a href="{{ route('comics.create') }}">Inserisci nuovo fumetto</a>
     <div class="comics_container">
         
         @foreach ($comics as $comic)
