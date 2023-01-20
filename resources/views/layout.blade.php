@@ -16,11 +16,5 @@
 </head>
 
 <body>
-    <div class="container bg-dark">
-        <h1>Questo è l'header</h1>
-    </div>
     @yield('page_content')
-    <div class="container">
-        <h1>Questo è il footer</h1>
-    </div>
 </body>
