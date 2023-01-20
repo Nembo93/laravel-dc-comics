@@ -1,9 +1,38 @@
+/* COMMONS */
+.my_show_button{
+    text-decoration: none;
+    color: inherit;
+    border: 1px solid yellow;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+.mybutton_danger{
+    background-color: transparent;
+    color: red;
+    border: 2px solid red;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+.disp_block{
+    display: block;
+}
 
 
 
 
 
 /* INDEX */
+.my_insert_button{
+    color: black;
+    background-color: yellow;
+    text-decoration: none;
+    padding: 5px 10px;
+    font-size: 18px;
+    font-weight: 600;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-left: 50px;
+}
 .comics_container{
     display: flex;
     justify-content: space-around;
@@ -37,4 +66,9 @@
 }
 .show_comic_card img{
     
+}
+.comic_show_button_box{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
 }

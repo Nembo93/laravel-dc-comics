@@ -1,9 +1,10 @@
 @extends('layout')
 
 @section('page_content')
-<main class="bg-light">
-    <h1>Questa è la view index</h1>
-    <a href="{{ route('comics.create') }}">Inserisci nuovo fumetto</a>
+<main>
+    <div class="py-3">
+        <a class="my_insert_button" href="{{ route('comics.create') }}">Inserisci nuovo fumetto</a>
+    </div>   
     <div class="comics_container">
         
         @foreach ($comics as $comic)
@@ -13,7 +14,7 @@
                 </div>
                 <h5>{{$comic['series']}}</h5>
                 <strong>{{$comic['price']}}</strong>
-                <button class="info_button"><a href="{{ route('comics.show', $comic->id) }}">Show details</a></button>
+                <a class="my_show_button" href="{{ route('comics.show', $comic->id) }}">Show details</a>
             </div>        
         @endforeach
     </div>
