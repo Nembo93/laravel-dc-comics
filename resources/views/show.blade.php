@@ -1,6 +1,10 @@
 @extends('layout')
 @section('page_content')
-<h1>ciao</h1>
+<div>
+    <div>
+        <img src="{{$comics['thumb']}}" alt="">
+    </div>
+</div>
 @endsection
 
 
