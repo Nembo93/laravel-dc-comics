@@ -6,6 +6,13 @@
     border-radius: 5px;
     padding: 5px 10px;
 }
+.my_show_button_2{
+    text-decoration: none;
+    color: orange;
+    border: 1px solid orange;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
 .mybutton_danger{
     background-color: transparent;
     color: red;

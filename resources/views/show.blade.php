@@ -15,6 +15,7 @@
         {{-- bottoni --}}
         <div class="comic_show_button_box">           
             <a class="my_show_button" href="{{ route('comics.index') }}">Torna ai fumetti</a>
+            <a class="my_show_button" href="{{ route('comics.edit', $comic->id) }}">Modifica</a>
             <form action="{{ route('comics.destroy', $comic->id) }}" method="POST">
                 @csrf
                 @method('DELETE')
