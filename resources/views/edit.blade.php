@@ -19,7 +19,7 @@
         </div>
         <div>
             <label for="price">Inserisci il prezzo</label>
-            <input type="text" class="@error('price') is-invalid @enderror" id="price" name="price">
+            <input type="number" class="@error('price') is-invalid @enderror" id="price" name="price">
         </div>
         <div>
             <label for="type">Inserisci tipo di fumetto</label>
@@ -27,7 +27,7 @@
         </div>
         <div>
             <label for="sale_date">Inserisci data</label>
-            <input type="text" class="@error('sale_date') is-invalid @enderror" id="sale_date" name="sale_date">
+            <input type="date" class="@error('sale_date') is-invalid @enderror" id="sale_date" name="sale_date">
         </div>
         <button type="submit">Salva le modifiche</button>
 
